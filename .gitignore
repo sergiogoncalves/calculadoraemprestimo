@@ -1,24 +1,43 @@
-# Compiled class file
-*.class
-
-# Log file
+# ----------------------------
+# 🔧 Geral
+# ----------------------------
+.DS_Store
+Thumbs.db
 *.log
+*.tmp
+*.bak
 
-# BlueJ files
-*.ctxt
+# ----------------------------
+# 🔧 Node.js / React (Frontend)
+# ----------------------------
+calculadora-emprestimos-frontend/node_modules/
+calculadora-emprestimos-frontend/.env
+calculadora-emprestimos-frontend/build/
+calculadora-emprestimos-frontend/.next/
+calculadora-emprestimos-frontend/.cache/
+calculadora-emprestimos-frontend/.turbo/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ----------------------------
+# ☕ Java (Backend)
+# ----------------------------
+calculadora-emprestimos-backend/target/
+calculadora-emprestimos-backend/.classpath
+calculadora-emprestimos-backend/.project
+calculadora-emprestimos-backend/.settings/
+calculadora-emprestimos-backend/.idea/
+calculadora-emprestimos-backend/*.iml
+calculadora-emprestimos-backend/.env
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Maven / Gradle
+calculadora-emprestimos-backend/.mvn/
+calculadora-emprestimos-backend/mvnw
+calculadora-emprestimos-backend/mvnw.cmd
+calculadora-emprestimos-backend/build/
+calculadora-emprestimos-backend/.gradle/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# ----------------------------
+# 💻 IDEs / Editores
+# ----------------------------
+.vscode/
+.idea/
+*.iml
